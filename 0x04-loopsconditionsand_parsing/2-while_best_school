@@ -1,0 +1,2 @@
+#!/bin/bash
+i=1while [ $i -le 10 ]; doecho "Best School"i=$((i + 1))done
