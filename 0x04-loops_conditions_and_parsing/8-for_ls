@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script lists visible files and shows the part of the filename after the first dash
+
+for file in *; do
+  name="${file#*-}"
+  echo "$name"
+done
