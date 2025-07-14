@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script displays an infinite message and reacts to SIGTERM with "I am invincible!!!"
 trap "echo I am invincible!!!" SIGTERM
 while true
