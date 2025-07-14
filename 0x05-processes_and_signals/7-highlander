@@ -1,0 +1,8 @@
+#!/bin/bash
+# This script displays an infinite message and reacts to SIGTERM with "I am invincible!!!"
+trap "echo I am invincible!!!" SIGTERM
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
